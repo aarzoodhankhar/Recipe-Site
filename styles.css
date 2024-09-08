@@ -1,0 +1,135 @@
+#navlist{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    font-size:50px;
+    padding  : 10px;
+
+justify-content: centre;
+align-items: centre;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+nav{
+    width:100%;
+    overflow-x :0;
+}
+.container{
+    width : 100vw;
+    height :t 100vh;
+    overflow-x: hidden;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}    
+.navcontainer
+{
+    width : 100vw;
+    height :80px;
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}
+    
+
+
+#logo{
+    font-size: 50px;
+    color: azure;
+}
+a{
+    font-size: 37px;
+    text-decoration: none;
+}
+#flexitems{
+    display: flex;
+    gap : 40px;
+    
+}
+.footerbox{
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+    text-align: center;
+    min-height: 30px;
+}
+.footerbox p{
+    color :azure;
+    font-size: 30px;
+}
+.contentbox{
+    width : 80%;
+    margin: auto;
+    
+    background-color: rgb(232, 242, 229);
+    padding :30px;
+    box-shadow: 3px 3px 30px black;
+   
+
+}.box1 , .box2{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+img{
+    height:300px;
+    width: 300px;
+    border-radius: 4px;
+}
+ul{
+   list-style-type: none;
+}
+section{
+    padding : 13px;
+    border: 3px dotted rgb(65, 136, 146);;
+}
+.left , .left2{
+    font-size: large;
+    padding :19px;
+}
+h1{
+    font-size:70px;
+    font-style: italic;
+}
+.right:hover{
+    transform: scale(1.07)
+}
+.right img{
+    transition: all 0.5s 0s linear;
+    height :100%;
+}
+.right{
+    position: relative;
+    transition: all 0.5s 0s linear;
+    box-shadow: #0f1010 1px 1px 10px;
+}
+.right .overlay{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top :0;
+    left:0;
+    background-color: rgb(36, 34, 34 , 0.713);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    opacity:1;
+    transition: all 0.3s 0s linear;
+    
+}
+.right:hover .overlay{
+    opacity: 0;
+    
+}
+.overlay span{
+    color: azure;
+    font-size: larger;
+}
+
+
+    
+
